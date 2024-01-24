@@ -1,0 +1,37 @@
+html {
+  font-size: 18px; /* px means "pixels": the base font size is now 10 pixels high */
+  color: #f9fbfd;
+  font-family: 'Poppins', sans-serif; /* this should be the rest of the output you got from Google Fonts */
+  background-color: #1f1f1f;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color:#f9fbfd;
+  text-shadow: 3px 3px 1px #959494;
+}
+h2, h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 15px;
+  text-align: center;
+}
+p, li {
+  font-size: 20px;
+  line-height: 1.25;
+  letter-spacing: .75px;
+}
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #507090;
+  padding: 0 20px 20px 20px;
+  border: 3px solid #ffffff;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
