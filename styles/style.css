@@ -1,5 +1,7 @@
-html {
-  font-size: 18px;
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
   color: #f9fbfd;
   font-family: "Manrope", serif;
   font-optical-sizing: auto;
@@ -9,14 +11,51 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5%;
+  background-color: #1f1f1f;
   width: 100%;
-  margin: 0;
-  padding: 0 5%; /* Smaller padding for full-width effect */
-  background-color: transparent;
+  box-sizing: border-box;
+}
+
+.header-left {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-nav {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.header-nav a {
+  margin: 0 20px;
+  color: #f9fbfd;
+  text-decoration: none;
+}
+
+.header-right {
+  display: flex;
+  gap: 15px;
+}
+
+.header-right a {
+  color: #d3d3d3;
+  text-decoration: none;
 }
 
 h1, h3, h4, p {
   text-align: left;
+  margin: 10px 5%;
 }
 
 p, li {
@@ -29,38 +68,9 @@ p, li {
   font-size: 16px;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 5%;
-  background-color: #1f1f1f; /* Same color as the rest of the site */
-}
-
-.header-left {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.header-nav a {
-  margin: 0 15px;
-  color: #f9fbfd;
-  text-decoration: none;
-}
-
-.header-right a {
-  color: #d3d3d3;
-  text-decoration: none;
-  margin: 0 10px;
-}
-
-.header-nav, .header-right {
-  display: flex;
-  align-items: center;
-}
-
 footer {
   text-align: center;
   margin-top: 20px;
   padding: 10px 0;
+  width: 100%;
 }
