@@ -35,7 +35,14 @@ img {
   font-size: 16px;
 }
 
-.linkedin-link {
-  color: #d3d3d3;
+.linkedin-link, .email-link, .github-link {
+  color: #d3d3d3; /* Light grey for links */
   text-decoration: none;
+  margin: 0 10px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 0;
 }
