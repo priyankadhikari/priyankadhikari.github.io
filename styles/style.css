@@ -26,20 +26,32 @@ header {
   box-sizing: border-box;
 }
 
-.header-left a,
-.header-nav a,
-.header-right a {
+/* Priyanka Adhikari - Larger Size & Bolder Hover */
+.header-left a {
   font-size: 24px;
-  font-weight: 400; /* Slightly lighter default weight */
+  font-weight: 400;
   color: #f9fbfd;
-  text-decoration: none; /* No underline */
-  transition: font-weight 0.2s ease-in-out; /* Smooth transition */
+  text-decoration: none;
+  transition: font-weight 0.2s ease-in-out;
 }
 
-.header-left a:hover,
+.header-left a:hover {
+  font-weight: 700;
+}
+
+/* Other Navigation Links - Normal Size & Slight Bold Hover */
+.header-nav a,
+.header-right a {
+  font-size: 18px; /* Reverted size */
+  font-weight: 400;
+  color: #f9fbfd;
+  text-decoration: none;
+  transition: font-weight 0.2s ease-in-out;
+}
+
 .header-nav a:hover,
 .header-right a:hover {
-  font-weight: 700; /* Slightly more bold on hover */
+  font-weight: 500; /* Slightly bolder on hover */
 }
 
 .header-nav {
