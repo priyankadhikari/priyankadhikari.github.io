@@ -39,7 +39,7 @@ header {
 .header-left a:hover,
 .header-nav a:hover,
 .header-right a:hover {
-  font-weight: 500; /* Slightly more bold on hover */
+  font-weight: 700; /* Slightly more bold on hover */
 }
 
 .header-nav {
