@@ -26,18 +26,21 @@ header {
   box-sizing: border-box;
 }
 
-.header-left a {
+.header-left a,
+.header-nav a,
+.header-right a {
   font-size: 24px;
-  font-weight: normal; /* Default weight */
+  font-weight: 400; /* Slightly lighter default weight */
   color: #f9fbfd;
   text-decoration: none; /* No underline */
   transition: font-weight 0.2s ease-in-out; /* Smooth transition */
 }
 
-.header-left a:hover {
-  font-weight: bold; /* Bold on hover */
+.header-left a:hover,
+.header-nav a:hover,
+.header-right a:hover {
+  font-weight: 500; /* Slightly more bold on hover */
 }
-
 
 .header-nav {
   flex-grow: 1;
@@ -47,20 +50,11 @@ header {
 
 .header-nav a {
   margin: 0 20px;
-  color: #f9fbfd;
-  text-decoration: none;
-  font-family: "Manrope", sans-serif;
 }
 
 .header-right {
   display: flex;
   gap: 15px;
-}
-
-.header-right a {
-  color: #d3d3d3;
-  text-decoration: none;
-  font-family: "Manrope", sans-serif;
 }
 
 h1, h3, h4, p {
