@@ -74,3 +74,12 @@ footer {
   padding: 10px 0;
   width: 100%;
 }
+
+.home-link {
+  text-decoration: none;
+  color: #f9fbfd;
+}
+
+.home-link:hover {
+  text-decoration: underline;
+}
