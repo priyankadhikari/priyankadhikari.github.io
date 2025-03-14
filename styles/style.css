@@ -3,7 +3,7 @@ html, body {
   margin: 0;
   padding: 0;
   color: #f9fbfd;
-  font-family: "Manrope", serif;
+  font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
   font-weight: 238;
   font-style: normal;
@@ -26,9 +26,15 @@ header {
   box-sizing: border-box;
 }
 
-.header-left {
+.header-left a {
   font-size: 24px;
   font-weight: bold;
+  color: #f9fbfd;
+  text-decoration: none;
+}
+
+.header-left a:hover {
+  text-decoration: underline;
 }
 
 .header-nav {
@@ -41,6 +47,7 @@ header {
   margin: 0 20px;
   color: #f9fbfd;
   text-decoration: none;
+  font-family: "Manrope", sans-serif;
 }
 
 .header-right {
@@ -51,11 +58,13 @@ header {
 .header-right a {
   color: #d3d3d3;
   text-decoration: none;
+  font-family: "Manrope", sans-serif;
 }
 
 h1, h3, h4, p {
   text-align: left;
   margin: 10px 5%;
+  font-family: "Manrope", sans-serif;
 }
 
 p, li {
@@ -73,13 +82,4 @@ footer {
   margin-top: 20px;
   padding: 10px 0;
   width: 100%;
-}
-
-.home-link {
-  text-decoration: none;
-  color: #f9fbfd;
-}
-
-.home-link:hover {
-  text-decoration: underline;
 }
