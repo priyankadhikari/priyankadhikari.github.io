@@ -51,7 +51,7 @@ header {
 
 .header-nav a:hover,
 .header-right a:hover {
-  font-weight: 1000; /* Bolder on hover */
+  font-weight: 1200; /* Bolder on hover */
 }
 
 .header-nav {
