@@ -36,7 +36,7 @@ header {
 }
 
 .header-left a:hover {
-  font-weight: 700;
+  font-weight: 1000;
 }
 
 /* Other Navigation Links - Normal Size & Slight Bold Hover */
@@ -51,7 +51,7 @@ header {
 
 .header-nav a:hover,
 .header-right a:hover {
-  font-weight: 700; /* Bolder on hover */
+  font-weight: 1000; /* Bolder on hover */
 }
 
 .header-nav {
