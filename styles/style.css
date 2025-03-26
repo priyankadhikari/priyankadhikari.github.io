@@ -69,34 +69,30 @@ header {
   gap: 15px;
 }
 
-/* Projects Page Styling */
+/* Posts Page Styling */
 h1 {
-  font-size: 36px; /* Big title for 'Projects' */
+  font-size: 36px; /* Big title */
   margin: 20px 5%;
 }
 
-.projects-description {
+.posts-description,
+.music-description {
   font-size: 20px; /* Slightly smaller than main title */
   margin: 5px 5%;
 }
 
-.project {
+/* Music Page Styling */
+.music-entry {
   margin: 30px 5%;
 }
 
-.project h2 {
+.music-entry h2 {
   font-size: 28px; /* Medium-sized subheadings */
   margin-bottom: 5px;
 }
 
-.project-date {
-  font-size: 16px; /* Small text for dates */
-  font-weight: 300;
-  margin-bottom: 10px;
-}
-
-.project-text {
-  font-size: 16px; /* Small text for body */
+.music-text {
+  font-size: 16px; /* Small text for descriptions */
   line-height: 1.5;
 }
 
