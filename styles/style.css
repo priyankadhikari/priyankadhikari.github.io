@@ -39,7 +39,7 @@ header {
   font-weight: 1000;
 }
 
-/* Navigation Links */
+/* Other Navigation Links - Normal Size & Slight Bold Hover */
 .header-nav a,
 .header-right a {
   font-size: 18px;
@@ -69,55 +69,19 @@ header {
   gap: 15px;
 }
 
-/* About Section */
+/* Posts Page Styling */
 h1 {
-  font-size: 36px; /* Big section titles */
+  font-size: 36px; /* Big title */
   margin: 20px 5%;
 }
 
-.about-description {
+.posts-description,
+.music-description {
   font-size: 20px; /* Slightly smaller than main title */
   margin: 5px 5%;
 }
 
-/* Projects Page Styling */
-.projects-description {
-  font-size: 20px;
-  margin: 5px 5%;
-}
-
-.project {
-  margin: 30px 5%;
-}
-
-.project h2 {
-  font-size: 28px; /* Medium-sized subheadings */
-  margin-bottom: 5px;
-}
-
-.project-date {
-  font-size: 16px; /* Small text for dates */
-  font-weight: 300;
-  margin-bottom: 10px;
-}
-
-.project-text {
-  font-size: 16px; /* Small text for body */
-  line-height: 1.5;
-}
-
-/* Posts Page Styling */
-.posts-description {
-  font-size: 20px;
-  margin: 5px 5%;
-}
-
 /* Music Page Styling */
-.music-description {
-  font-size: 20px;
-  margin: 5px 5%;
-}
-
 .music-entry {
   margin: 30px 5%;
 }
@@ -135,3 +99,6 @@ h1 {
 footer {
   text-align: center;
   margin-top: 20px;
+  padding: 10px 0;
+  width: 100%;
+}
