@@ -1,3 +1,85 @@
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #f9fbfd;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 238;
+  font-style: normal;
+  background-color: #1f1f1f;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5%;
+  background-color: #1f1f1f;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Priyanka Adhikari - Larger Size & Bolder Hover */
+.header-left a {
+  font-size: 24px;
+  font-weight: 400;
+  color: #f9fbfd;
+  text-decoration: none;
+  transition: font-weight 0.2s ease-in-out;
+}
+
+.header-left a:hover {
+  font-weight: 1000;
+}
+
+/* Navigation Links */
+.header-nav a,
+.header-right a {
+  font-size: 18px;
+  font-weight: 400;
+  color: #f9fbfd;
+  text-decoration: none;
+  transition: font-weight 0.2s ease-in-out;
+}
+
+.header-nav a:hover,
+.header-right a:hover {
+  font-weight: 1200;
+}
+
+.header-nav {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.header-nav a {
+  margin: 0 20px;
+}
+
+.header-right {
+  display: flex;
+  gap: 15px;
+}
+
+/* About Section */
+h1 {
+  font-size: 36px; /* Big section titles */
+  margin: 20px 5%;
+}
+
+.about-description {
+  font-size: 20px; /* Slightly smaller than main title */
+  margin: 5px 5%;
+}
+
 /* Projects Page Styling */
 .projects-description {
   font-size: 20px;
@@ -9,17 +91,47 @@
 }
 
 .project h2 {
-  font-size: 28px;
+  font-size: 28px; /* Medium-sized subheadings */
   margin-bottom: 5px;
 }
 
 .project-date {
-  font-size: 16px;
+  font-size: 16px; /* Small text for dates */
   font-weight: 300;
   margin-bottom: 10px;
 }
 
 .project-text {
-  font-size: 16px;
+  font-size: 16px; /* Small text for body */
   line-height: 1.5;
 }
+
+/* Posts Page Styling */
+.posts-description {
+  font-size: 20px;
+  margin: 5px 5%;
+}
+
+/* Music Page Styling */
+.music-description {
+  font-size: 20px;
+  margin: 5px 5%;
+}
+
+.music-entry {
+  margin: 30px 5%;
+}
+
+.music-entry h2 {
+  font-size: 28px; /* Medium-sized subheadings */
+  margin-bottom: 5px;
+}
+
+.music-text {
+  font-size: 16px; /* Small text for descriptions */
+  line-height: 1.5;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
